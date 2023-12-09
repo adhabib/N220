@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Calculator</title>
+  </head>
+  <body>
+    <form>
+      <label>First Number:</label>
+      <input type="number" name="first" id="first" />
+      <br/>
+      <label>Second Number:</label>
+      <input type="number" name="second" id="second" />
+      <br />
+      <label>Operator:</label>
+      <select name="operator" id="operator">
+        <option value="add">Addition</option>
+        <option value="subtract">Subtraction</option>
+        <option value="multiply">Multiplication</option>
+        <option value="divide">Division</option>
+      </select>
+        <br />
+      <input type="submit" value="Calculate Button" id="submitBtn" />
+    </form>
+    <div>
+      <h2>Your Equation:</h2>
+      <p id="equation"></p>
+    </div>
+    <script src="miniCalculator.js"></script>
+  </body>
+</html>

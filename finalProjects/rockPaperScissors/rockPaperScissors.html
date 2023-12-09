@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <style>
+      td,
+      th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="rock">Rock</div>
+    <div id="paper">Paper</div>
+    <div id="scissors">Scissors</div>
+    <br />
+    <form id="result">
+      <p>Result:</p>
+      <img src="" />
+      <p id="resultText"></p>
+    </form>
+    <div id="Score">
+      <p>Results:</p>
+      <table id="table">
+        <tr>
+          <th>Games</th>
+          <th>Winner</th>
+        </tr>
+      </table>
+    </div>
+    <script src="rockPaperScissors.js"></script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coin Flip</title>
+    <style>
+      td,
+      th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+    </style>
+  </head>
+  <body>
+    <form id="result">
+        <input type="submit" value="Flip Coin" id="submitBtn" />
+        <img src="">
+        <p id="resultText"></p>
+    </form>
+    <p id="ratio"></p>
+    <table id="table">
+        <tr>
+            <th>Flips</th>
+            <th>Result</th>
+        </tr>
+    </table>
+    <script src="coinFlip.js"></script>
+  </body>
+</html>
